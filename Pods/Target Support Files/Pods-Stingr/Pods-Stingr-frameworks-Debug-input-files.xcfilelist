@@ -1,0 +1,8 @@
+${PODS_ROOT}/Target Support Files/Pods-Stingr/Pods-Stingr-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Blockstack/Blockstack.framework
+${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework
+${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework
+${BUILT_PRODUCTS_DIR}/Parse/Parse.framework
+${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework
+${BUILT_PRODUCTS_DIR}/PromisesSwift/Promises.framework
+${BUILT_PRODUCTS_DIR}/STRegex/Regex.framework

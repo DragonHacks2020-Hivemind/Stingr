@@ -1,0 +1,763 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1226E291B460315E6E04C57D /* Pods_Stingr_StingrUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 881FD6C9420EE0766F1A397D /* Pods_Stingr_StingrUITests.framework */; };
+		C80D911B2401F15200188CD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80D911A2401F15200188CD9 /* AppDelegate.swift */; };
+		C80D911D2401F15200188CD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80D911C2401F15200188CD9 /* SceneDelegate.swift */; };
+		C80D911F2401F15200188CD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80D911E2401F15200188CD9 /* ViewController.swift */; };
+		C80D91222401F15200188CD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C80D91202401F15200188CD9 /* Main.storyboard */; };
+		C80D91242401F15300188CD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C80D91232401F15300188CD9 /* Assets.xcassets */; };
+		C80D91272401F15300188CD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C80D91252401F15300188CD9 /* LaunchScreen.storyboard */; };
+		C80D91322401F15300188CD9 /* StingrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80D91312401F15300188CD9 /* StingrTests.swift */; };
+		C80D913D2401F15300188CD9 /* StingrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80D913C2401F15300188CD9 /* StingrUITests.swift */; };
+		C80D914C2401F62300188CD9 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80D914B2401F62300188CD9 /* LoginVC.swift */; };
+		C80D914E2401F70600188CD9 /* RecruiterHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80D914D2401F70600188CD9 /* RecruiterHomeVC.swift */; };
+		C80D91502401F71700188CD9 /* RegularHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80D914F2401F71700188CD9 /* RegularHomeVC.swift */; };
+		D22016918F4AF195D44AEC52 /* Pods_StingrTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2FF086A7C0109F2E2C530A6 /* Pods_StingrTests.framework */; };
+		E4186D720595239778733906 /* Pods_Stingr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9F4ECC257DAD87291B25198 /* Pods_Stingr.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C80D912E2401F15300188CD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C80D910F2401F15200188CD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C80D91162401F15200188CD9;
+			remoteInfo = Stingr;
+		};
+		C80D91392401F15300188CD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C80D910F2401F15200188CD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C80D91162401F15200188CD9;
+			remoteInfo = Stingr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		180A6002915F891084408979 /* Pods-Stingr-StingrUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stingr-StingrUITests.debug.xcconfig"; path = "Target Support Files/Pods-Stingr-StingrUITests/Pods-Stingr-StingrUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		49C66F602EA0C3F54CA3FF3B /* Pods-StingrTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StingrTests.release.xcconfig"; path = "Target Support Files/Pods-StingrTests/Pods-StingrTests.release.xcconfig"; sourceTree = "<group>"; };
+		6634D3523141E6D88D71C8AF /* Pods-Stingr-StingrUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stingr-StingrUITests.release.xcconfig"; path = "Target Support Files/Pods-Stingr-StingrUITests/Pods-Stingr-StingrUITests.release.xcconfig"; sourceTree = "<group>"; };
+		881FD6C9420EE0766F1A397D /* Pods_Stingr_StingrUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stingr_StingrUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00B5B658378849105B607CE /* Pods-Stingr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stingr.release.xcconfig"; path = "Target Support Files/Pods-Stingr/Pods-Stingr.release.xcconfig"; sourceTree = "<group>"; };
+		C2FF086A7C0109F2E2C530A6 /* Pods_StingrTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StingrTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C80D91172401F15200188CD9 /* Stingr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stingr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C80D911A2401F15200188CD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C80D911C2401F15200188CD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C80D911E2401F15200188CD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C80D91212401F15200188CD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C80D91232401F15300188CD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C80D91262401F15300188CD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C80D91282401F15300188CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C80D912D2401F15300188CD9 /* StingrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StingrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C80D91312401F15300188CD9 /* StingrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StingrTests.swift; sourceTree = "<group>"; };
+		C80D91332401F15300188CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C80D91382401F15300188CD9 /* StingrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StingrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C80D913C2401F15300188CD9 /* StingrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StingrUITests.swift; sourceTree = "<group>"; };
+		C80D913E2401F15300188CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C80D914B2401F62300188CD9 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		C80D914D2401F70600188CD9 /* RecruiterHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecruiterHomeVC.swift; sourceTree = "<group>"; };
+		C80D914F2401F71700188CD9 /* RegularHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularHomeVC.swift; sourceTree = "<group>"; };
+		D6CB5A758572FD2A532E2093 /* Pods-StingrTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StingrTests.debug.xcconfig"; path = "Target Support Files/Pods-StingrTests/Pods-StingrTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC5414B6FF6500470AD905CB /* Pods-Stingr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stingr.debug.xcconfig"; path = "Target Support Files/Pods-Stingr/Pods-Stingr.debug.xcconfig"; sourceTree = "<group>"; };
+		F9F4ECC257DAD87291B25198 /* Pods_Stingr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stingr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C80D91142401F15200188CD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4186D720595239778733906 /* Pods_Stingr.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C80D912A2401F15300188CD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22016918F4AF195D44AEC52 /* Pods_StingrTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C80D91352401F15300188CD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1226E291B460315E6E04C57D /* Pods_Stingr_StingrUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEE78B03F860D81CBF27B41E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9F4ECC257DAD87291B25198 /* Pods_Stingr.framework */,
+				881FD6C9420EE0766F1A397D /* Pods_Stingr_StingrUITests.framework */,
+				C2FF086A7C0109F2E2C530A6 /* Pods_StingrTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C554492A14B0073A19D6B031 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC5414B6FF6500470AD905CB /* Pods-Stingr.debug.xcconfig */,
+				A00B5B658378849105B607CE /* Pods-Stingr.release.xcconfig */,
+				180A6002915F891084408979 /* Pods-Stingr-StingrUITests.debug.xcconfig */,
+				6634D3523141E6D88D71C8AF /* Pods-Stingr-StingrUITests.release.xcconfig */,
+				D6CB5A758572FD2A532E2093 /* Pods-StingrTests.debug.xcconfig */,
+				49C66F602EA0C3F54CA3FF3B /* Pods-StingrTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C80D910E2401F15200188CD9 = {
+			isa = PBXGroup;
+			children = (
+				C80D91192401F15200188CD9 /* Stingr */,
+				C80D91302401F15300188CD9 /* StingrTests */,
+				C80D913B2401F15300188CD9 /* StingrUITests */,
+				C80D91182401F15200188CD9 /* Products */,
+				C554492A14B0073A19D6B031 /* Pods */,
+				AEE78B03F860D81CBF27B41E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C80D91182401F15200188CD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C80D91172401F15200188CD9 /* Stingr.app */,
+				C80D912D2401F15300188CD9 /* StingrTests.xctest */,
+				C80D91382401F15300188CD9 /* StingrUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C80D91192401F15200188CD9 /* Stingr */ = {
+			isa = PBXGroup;
+			children = (
+				C80D914A2401F5C100188CD9 /* ViewControllers */,
+				C80D911A2401F15200188CD9 /* AppDelegate.swift */,
+				C80D911C2401F15200188CD9 /* SceneDelegate.swift */,
+				C80D911E2401F15200188CD9 /* ViewController.swift */,
+				C80D91202401F15200188CD9 /* Main.storyboard */,
+				C80D91232401F15300188CD9 /* Assets.xcassets */,
+				C80D91252401F15300188CD9 /* LaunchScreen.storyboard */,
+				C80D91282401F15300188CD9 /* Info.plist */,
+			);
+			path = Stingr;
+			sourceTree = "<group>";
+		};
+		C80D91302401F15300188CD9 /* StingrTests */ = {
+			isa = PBXGroup;
+			children = (
+				C80D91312401F15300188CD9 /* StingrTests.swift */,
+				C80D91332401F15300188CD9 /* Info.plist */,
+			);
+			path = StingrTests;
+			sourceTree = "<group>";
+		};
+		C80D913B2401F15300188CD9 /* StingrUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C80D913C2401F15300188CD9 /* StingrUITests.swift */,
+				C80D913E2401F15300188CD9 /* Info.plist */,
+			);
+			path = StingrUITests;
+			sourceTree = "<group>";
+		};
+		C80D914A2401F5C100188CD9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C80D914B2401F62300188CD9 /* LoginVC.swift */,
+				C80D914D2401F70600188CD9 /* RecruiterHomeVC.swift */,
+				C80D914F2401F71700188CD9 /* RegularHomeVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C80D91162401F15200188CD9 /* Stingr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C80D91412401F15300188CD9 /* Build configuration list for PBXNativeTarget "Stingr" */;
+			buildPhases = (
+				92FEE4B816C6C4F7C1273063 /* [CP] Check Pods Manifest.lock */,
+				C80D91132401F15200188CD9 /* Sources */,
+				C80D91142401F15200188CD9 /* Frameworks */,
+				C80D91152401F15200188CD9 /* Resources */,
+				43D0850206F21AE7AE3B25B1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stingr;
+			productName = Stingr;
+			productReference = C80D91172401F15200188CD9 /* Stingr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C80D912C2401F15300188CD9 /* StingrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C80D91442401F15300188CD9 /* Build configuration list for PBXNativeTarget "StingrTests" */;
+			buildPhases = (
+				EE2E77C54036F7A4E6190820 /* [CP] Check Pods Manifest.lock */,
+				C80D91292401F15300188CD9 /* Sources */,
+				C80D912A2401F15300188CD9 /* Frameworks */,
+				C80D912B2401F15300188CD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C80D912F2401F15300188CD9 /* PBXTargetDependency */,
+			);
+			name = StingrTests;
+			productName = StingrTests;
+			productReference = C80D912D2401F15300188CD9 /* StingrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C80D91372401F15300188CD9 /* StingrUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C80D91472401F15300188CD9 /* Build configuration list for PBXNativeTarget "StingrUITests" */;
+			buildPhases = (
+				90C55B7F03F87C7B61850CE9 /* [CP] Check Pods Manifest.lock */,
+				C80D91342401F15300188CD9 /* Sources */,
+				C80D91352401F15300188CD9 /* Frameworks */,
+				C80D91362401F15300188CD9 /* Resources */,
+				6C6B73D5B4E54604716FD29F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C80D913A2401F15300188CD9 /* PBXTargetDependency */,
+			);
+			name = StingrUITests;
+			productName = StingrUITests;
+			productReference = C80D91382401F15300188CD9 /* StingrUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C80D910F2401F15200188CD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Hivemind;
+				TargetAttributes = {
+					C80D91162401F15200188CD9 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					C80D912C2401F15300188CD9 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = C80D91162401F15200188CD9;
+					};
+					C80D91372401F15300188CD9 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = C80D91162401F15200188CD9;
+					};
+				};
+			};
+			buildConfigurationList = C80D91122401F15200188CD9 /* Build configuration list for PBXProject "Stingr" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C80D910E2401F15200188CD9;
+			productRefGroup = C80D91182401F15200188CD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C80D91162401F15200188CD9 /* Stingr */,
+				C80D912C2401F15300188CD9 /* StingrTests */,
+				C80D91372401F15300188CD9 /* StingrUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C80D91152401F15200188CD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C80D91272401F15300188CD9 /* LaunchScreen.storyboard in Resources */,
+				C80D91242401F15300188CD9 /* Assets.xcassets in Resources */,
+				C80D91222401F15200188CD9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C80D912B2401F15300188CD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C80D91362401F15300188CD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43D0850206F21AE7AE3B25B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stingr/Pods-Stingr-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stingr/Pods-Stingr-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Stingr/Pods-Stingr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C6B73D5B4E54604716FD29F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stingr-StingrUITests/Pods-Stingr-StingrUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stingr-StingrUITests/Pods-Stingr-StingrUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Stingr-StingrUITests/Pods-Stingr-StingrUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90C55B7F03F87C7B61850CE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Stingr-StingrUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92FEE4B816C6C4F7C1273063 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Stingr-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE2E77C54036F7A4E6190820 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StingrTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C80D91132401F15200188CD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C80D911F2401F15200188CD9 /* ViewController.swift in Sources */,
+				C80D911B2401F15200188CD9 /* AppDelegate.swift in Sources */,
+				C80D914E2401F70600188CD9 /* RecruiterHomeVC.swift in Sources */,
+				C80D914C2401F62300188CD9 /* LoginVC.swift in Sources */,
+				C80D91502401F71700188CD9 /* RegularHomeVC.swift in Sources */,
+				C80D911D2401F15200188CD9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C80D91292401F15300188CD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C80D91322401F15300188CD9 /* StingrTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C80D91342401F15300188CD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C80D913D2401F15300188CD9 /* StingrUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C80D912F2401F15300188CD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C80D91162401F15200188CD9 /* Stingr */;
+			targetProxy = C80D912E2401F15300188CD9 /* PBXContainerItemProxy */;
+		};
+		C80D913A2401F15300188CD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C80D91162401F15200188CD9 /* Stingr */;
+			targetProxy = C80D91392401F15300188CD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C80D91202401F15200188CD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C80D91212401F15200188CD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C80D91252401F15300188CD9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C80D91262401F15300188CD9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C80D913F2401F15300188CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C80D91402401F15300188CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C80D91422401F15300188CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC5414B6FF6500470AD905CB /* Pods-Stingr.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Stingr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hivemind.Stingr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C80D91432401F15300188CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A00B5B658378849105B607CE /* Pods-Stingr.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Stingr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hivemind.Stingr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C80D91452401F15300188CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6CB5A758572FD2A532E2093 /* Pods-StingrTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StingrTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hivemind.StingrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stingr.app/Stingr";
+			};
+			name = Debug;
+		};
+		C80D91462401F15300188CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49C66F602EA0C3F54CA3FF3B /* Pods-StingrTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StingrTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hivemind.StingrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stingr.app/Stingr";
+			};
+			name = Release;
+		};
+		C80D91482401F15300188CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 180A6002915F891084408979 /* Pods-Stingr-StingrUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StingrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hivemind.StingrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Stingr;
+			};
+			name = Debug;
+		};
+		C80D91492401F15300188CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6634D3523141E6D88D71C8AF /* Pods-Stingr-StingrUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StingrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hivemind.StingrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Stingr;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C80D91122401F15200188CD9 /* Build configuration list for PBXProject "Stingr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C80D913F2401F15300188CD9 /* Debug */,
+				C80D91402401F15300188CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C80D91412401F15300188CD9 /* Build configuration list for PBXNativeTarget "Stingr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C80D91422401F15300188CD9 /* Debug */,
+				C80D91432401F15300188CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C80D91442401F15300188CD9 /* Build configuration list for PBXNativeTarget "StingrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C80D91452401F15300188CD9 /* Debug */,
+				C80D91462401F15300188CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C80D91472401F15300188CD9 /* Build configuration list for PBXNativeTarget "StingrUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C80D91482401F15300188CD9 /* Debug */,
+				C80D91492401F15300188CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C80D910F2401F15200188CD9 /* Project object */;
+}

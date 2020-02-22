@@ -1,0 +1,6 @@
+framework module Pods_StingrTests {
+  umbrella header "Pods-StingrTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
