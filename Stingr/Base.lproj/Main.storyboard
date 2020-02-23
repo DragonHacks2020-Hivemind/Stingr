@@ -68,6 +68,7 @@
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YAd-SA-sfG">
                                 <rect key="frame" x="20" y="128" width="374" height="511"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cover Letter" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Av0-Sd-Oqp">
                                 <rect key="frame" x="20" y="674" width="374" height="36"/>
@@ -78,6 +79,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TUb-QE-vZ3">
                                 <rect key="frame" x="20" y="718" width="374" height="30"/>
                                 <state key="normal" title="Upload"/>
+                                <connections>
+                                    <action selector="UploadCoverLetter:" destination="mUA-6F-eJo" eventType="touchUpInside" id="Iui-uw-YNL"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.012119785879999999" green="0.1670697927" blue="0.2274595499" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -98,6 +102,9 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Cover Letter" image="doc.append" catalog="system" id="05a-3Y-bf5"/>
                     <navigationItem key="navigationItem" id="Q5F-K6-pxG"/>
+                    <connections>
+                        <outlet property="CoverLetterImage" destination="YAd-SA-sfG" id="Ech-ye-tJb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9d2-CC-OYA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -113,6 +120,7 @@
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wiY-2I-SmL">
                                 <rect key="frame" x="20" y="128" width="374" height="511"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Transcript" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Det-ol-KMZ">
                                 <rect key="frame" x="20" y="674" width="374" height="36"/>
@@ -123,6 +131,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bj3-ay-Oef">
                                 <rect key="frame" x="20" y="718" width="374" height="30"/>
                                 <state key="normal" title="Upload"/>
+                                <connections>
+                                    <action selector="UploadTranscript:" destination="yHq-WP-Ao4" eventType="touchUpInside" id="5g9-Bj-BLp"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.012119785879999999" green="0.1670697927" blue="0.2274595499" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -141,6 +152,9 @@
                         <viewLayoutGuide key="safeArea" id="VcH-sN-l5h"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Transcript" image="book" catalog="system" id="CXz-go-ciM"/>
+                    <connections>
+                        <outlet property="TranscriptImage" destination="wiY-2I-SmL" id="F5R-2f-fuM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fNL-Cl-IHt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -326,6 +340,7 @@
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wrn-Yt-bmd">
                                 <rect key="frame" x="20" y="128" width="374" height="511"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resume" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KZq-z6-rhL">
                                 <rect key="frame" x="20" y="674" width="374" height="36"/>
@@ -336,6 +351,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cbc-3n-q21">
                                 <rect key="frame" x="20" y="718" width="374" height="30"/>
                                 <state key="normal" title="Upload"/>
+                                <connections>
+                                    <action selector="UploadFile:" destination="T86-W4-ANN" eventType="touchUpInside" id="tLY-jS-qat"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.012119785879999999" green="0.1670697927" blue="0.2274595499" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -354,6 +372,9 @@
                         <viewLayoutGuide key="safeArea" id="SKU-GO-vKY"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Resume" image="doc.text" catalog="system" id="8Mc-LB-qLx"/>
+                    <connections>
+                        <outlet property="ResumeImageVIew" destination="Wrn-Yt-bmd" id="4YP-3K-0QR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZgW-ua-MaJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
