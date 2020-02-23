@@ -1,14 +1,14 @@
 //
-//  RecruiterHomeVC.swift
+//  ExportVC.swift
 //  Stingr
 //
-//  Created by Stephon Fonrose on 2/22/20.
+//  Created by Stephon Fonrose on 2/23/20.
 //  Copyright © 2020 Hivemind. All rights reserved.
 //
 
 import UIKit
 
-class RecruiterHomeVC: UIViewController {
+class ExportVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
