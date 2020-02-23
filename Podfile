@@ -7,7 +7,8 @@ target 'Stingr' do
 
   # Pods for Stingr
     pod "Parse"
-    pod "Blockstack" 
+    pod "Blockstack"
+    pod 'PMSuperButton' 
 
   target 'StingrTests' do
     inherit! :search_paths
