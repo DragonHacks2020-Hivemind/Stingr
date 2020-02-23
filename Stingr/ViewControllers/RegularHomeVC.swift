@@ -10,11 +10,14 @@ import UIKit
 
 class RegularHomeVC: UIViewController {
 
+    @IBOutlet weak var EmailTextField: UITextField!
+    
     @IBOutlet weak var CoverLetterButton: UIButton!
     
     @IBOutlet weak var ResumeButton: UIButton!
     
     @IBOutlet weak var TranscriptButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -73,6 +76,25 @@ class RegularHomeVC: UIViewController {
     }
     
     
+    @IBAction func SendInfo(_ sender: Any) {
+        if(!Resume && !CoverL && !Transcript){
+            let InvalidEntry = UIAlertController(title: "Invalid Selection", message: "Please select one or more items to share", preferredStyle: .alert)
+            let OKAction = UIAlertAction(title: "OK", style: .default) { (action) in
+                
+            }
+            InvalidEntry.addAction(OKAction)
+            self.present(InvalidEntry, animated: true)
+            
+        }
+        if (EmailTextField.text?.isEmpty)! {
+            let InvalidEntry = UIAlertController(title: "Sorry", message: "Please enter a valid email adress", preferredStyle: .alert)
+            let OKAction = UIAlertAction(title: "OK", style: .default) { (action) in
+                
+            }
+            InvalidEntry.addAction(OKAction)
+            self.present(InvalidEntry, animated: true)
+        }
+    }
     
         
 }
