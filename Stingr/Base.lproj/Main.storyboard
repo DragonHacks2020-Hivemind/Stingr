@@ -66,22 +66,37 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YAd-SA-sfG">
-                                <rect key="frame" x="20" y="150" width="374" height="480"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YAd-SA-sfG">
+                                <rect key="frame" x="20" y="128" width="374" height="511"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cover Letter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Av0-Sd-Oqp">
-                                <rect key="frame" x="128" y="674" width="159" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cover Letter" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Av0-Sd-Oqp">
+                                <rect key="frame" x="20" y="674" width="374" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" red="0.63191229100000001" green="0.68606162069999999" blue="0.69412064549999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TUb-QE-vZ3">
+                                <rect key="frame" x="20" y="718" width="374" height="30"/>
+                                <state key="normal" title="Upload"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.012119785879999999" green="0.1670697927" blue="0.2274595499" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="TUb-QE-vZ3" firstAttribute="leading" secondItem="W7x-86-Gj2" secondAttribute="leading" constant="20" id="4Z7-3D-FJ8"/>
+                            <constraint firstItem="W7x-86-Gj2" firstAttribute="bottom" secondItem="TUb-QE-vZ3" secondAttribute="bottom" constant="65" id="NrW-Yb-vrg"/>
+                            <constraint firstItem="Av0-Sd-Oqp" firstAttribute="top" secondItem="YAd-SA-sfG" secondAttribute="bottom" constant="35" id="Nxp-Lk-48w"/>
+                            <constraint firstItem="W7x-86-Gj2" firstAttribute="trailing" secondItem="Av0-Sd-Oqp" secondAttribute="trailing" constant="20" id="QcH-bw-F14"/>
+                            <constraint firstItem="TUb-QE-vZ3" firstAttribute="top" secondItem="Av0-Sd-Oqp" secondAttribute="bottom" constant="8" id="awO-GL-mgY"/>
+                            <constraint firstItem="W7x-86-Gj2" firstAttribute="trailing" secondItem="YAd-SA-sfG" secondAttribute="trailing" constant="20" id="cTk-Gf-Fzw"/>
+                            <constraint firstItem="YAd-SA-sfG" firstAttribute="top" secondItem="W7x-86-Gj2" secondAttribute="top" constant="40" id="cpY-wh-8xH"/>
+                            <constraint firstItem="YAd-SA-sfG" firstAttribute="leading" secondItem="W7x-86-Gj2" secondAttribute="leading" constant="20" id="fR1-7x-H8z"/>
+                            <constraint firstItem="TUb-QE-vZ3" firstAttribute="top" secondItem="Av0-Sd-Oqp" secondAttribute="bottom" constant="8" id="jXn-MP-cqm"/>
+                            <constraint firstItem="Av0-Sd-Oqp" firstAttribute="leading" secondItem="W7x-86-Gj2" secondAttribute="leading" constant="20" id="lQX-Sv-IPG"/>
+                            <constraint firstItem="W7x-86-Gj2" firstAttribute="trailing" secondItem="TUb-QE-vZ3" secondAttribute="trailing" constant="20" id="piE-jn-M6t"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="W7x-86-Gj2"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Cover Letter" id="05a-3Y-bf5"/>
+                    <tabBarItem key="tabBarItem" title="Cover Letter" image="doc.append" catalog="system" id="05a-3Y-bf5"/>
                     <navigationItem key="navigationItem" id="Q5F-K6-pxG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9d2-CC-OYA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -96,22 +111,36 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wiY-2I-SmL">
-                                <rect key="frame" x="20" y="130" width="374" height="476"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wiY-2I-SmL">
+                                <rect key="frame" x="20" y="128" width="374" height="511"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Transcript" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Det-ol-KMZ">
-                                <rect key="frame" x="143" y="684" width="128" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Transcript" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Det-ol-KMZ">
+                                <rect key="frame" x="20" y="674" width="374" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" red="0.63191229100000001" green="0.68606162069999999" blue="0.69412064549999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bj3-ay-Oef">
+                                <rect key="frame" x="20" y="718" width="374" height="30"/>
+                                <state key="normal" title="Upload"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.012119785879999999" green="0.1670697927" blue="0.2274595499" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="wiY-2I-SmL" firstAttribute="leading" secondItem="VcH-sN-l5h" secondAttribute="leading" constant="20" id="0oY-ua-bN2"/>
+                            <constraint firstItem="VcH-sN-l5h" firstAttribute="trailing" secondItem="Det-ol-KMZ" secondAttribute="trailing" constant="20" id="3xl-34-WiN"/>
+                            <constraint firstItem="VcH-sN-l5h" firstAttribute="bottom" secondItem="bj3-ay-Oef" secondAttribute="bottom" constant="65" id="4ez-DL-yNr"/>
+                            <constraint firstItem="wiY-2I-SmL" firstAttribute="top" secondItem="VcH-sN-l5h" secondAttribute="top" constant="40" id="KCi-Nq-APX"/>
+                            <constraint firstItem="VcH-sN-l5h" firstAttribute="trailing" secondItem="wiY-2I-SmL" secondAttribute="trailing" constant="20" id="OOh-AP-O5S"/>
+                            <constraint firstItem="Det-ol-KMZ" firstAttribute="leading" secondItem="VcH-sN-l5h" secondAttribute="leading" constant="20" id="awi-Ag-RGa"/>
+                            <constraint firstItem="Det-ol-KMZ" firstAttribute="top" secondItem="wiY-2I-SmL" secondAttribute="bottom" constant="35" id="iJP-D1-h67"/>
+                            <constraint firstItem="VcH-sN-l5h" firstAttribute="trailing" secondItem="bj3-ay-Oef" secondAttribute="trailing" constant="20" id="nG9-Sf-acJ"/>
+                            <constraint firstItem="bj3-ay-Oef" firstAttribute="leading" secondItem="VcH-sN-l5h" secondAttribute="leading" constant="20" id="q4o-V4-1lE"/>
+                            <constraint firstItem="bj3-ay-Oef" firstAttribute="top" secondItem="Det-ol-KMZ" secondAttribute="bottom" constant="8" id="q7q-vR-QLh"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="VcH-sN-l5h"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Transcript" id="CXz-go-ciM"/>
+                    <tabBarItem key="tabBarItem" title="Transcript" image="book" catalog="system" id="CXz-go-ciM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fNL-Cl-IHt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -237,7 +266,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="223" id="OD2-R7-Arp"/>
                                 </constraints>
-                                <state key="normal" title="PmSuperButton" image="share_button2"/>
+                                <state key="normal" title="PmSuperButton" image="button_share3"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="ripple" value="YES"/>
                                     <userDefinedRuntimeAttribute type="number" keyPath="rippleSpeed">
@@ -270,7 +299,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="TQO-KI-rM9"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" image="home-outline-40" id="KXN-di-QXP"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="home-outline-29" id="KXN-di-QXP"/>
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
@@ -291,22 +320,36 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wrn-Yt-bmd">
-                                <rect key="frame" x="20" y="129" width="374" height="462"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wrn-Yt-bmd">
+                                <rect key="frame" x="20" y="128" width="374" height="511"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Resume" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KZq-z6-rhL">
-                                <rect key="frame" x="155" y="673" width="105" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resume" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KZq-z6-rhL">
+                                <rect key="frame" x="20" y="674" width="374" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" red="0.63191229100000001" green="0.68606162069999999" blue="0.69412064549999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cbc-3n-q21">
+                                <rect key="frame" x="20" y="718" width="374" height="30"/>
+                                <state key="normal" title="Upload"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.012119785879999999" green="0.1670697927" blue="0.2274595499" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="SKU-GO-vKY" firstAttribute="trailing" secondItem="KZq-z6-rhL" secondAttribute="trailing" constant="20" id="643-qb-xvQ"/>
+                            <constraint firstItem="Wrn-Yt-bmd" firstAttribute="leading" secondItem="SKU-GO-vKY" secondAttribute="leading" constant="20" id="AnJ-4T-eVB"/>
+                            <constraint firstItem="Wrn-Yt-bmd" firstAttribute="top" secondItem="SKU-GO-vKY" secondAttribute="top" constant="40" id="DfQ-tf-h35"/>
+                            <constraint firstItem="cbc-3n-q21" firstAttribute="top" secondItem="KZq-z6-rhL" secondAttribute="bottom" constant="8" id="JqM-CX-5BZ"/>
+                            <constraint firstItem="SKU-GO-vKY" firstAttribute="trailing" secondItem="cbc-3n-q21" secondAttribute="trailing" constant="20" id="RtO-K5-3UR"/>
+                            <constraint firstItem="cbc-3n-q21" firstAttribute="leading" secondItem="SKU-GO-vKY" secondAttribute="leading" constant="20" id="cxu-Pu-eiD"/>
+                            <constraint firstItem="KZq-z6-rhL" firstAttribute="top" secondItem="Wrn-Yt-bmd" secondAttribute="bottom" constant="35" id="kMH-S4-kxR"/>
+                            <constraint firstItem="SKU-GO-vKY" firstAttribute="trailing" secondItem="Wrn-Yt-bmd" secondAttribute="trailing" constant="20" id="qCn-Q7-QQp"/>
+                            <constraint firstItem="KZq-z6-rhL" firstAttribute="leading" secondItem="SKU-GO-vKY" secondAttribute="leading" constant="20" id="tUG-ZE-wMx"/>
+                            <constraint firstItem="SKU-GO-vKY" firstAttribute="bottom" secondItem="cbc-3n-q21" secondAttribute="bottom" constant="65" id="v0N-nw-qnD"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="SKU-GO-vKY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Resume" id="8Mc-LB-qLx"/>
+                    <tabBarItem key="tabBarItem" title="Resume" image="doc.text" catalog="system" id="8Mc-LB-qLx"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZgW-ua-MaJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -315,7 +358,10 @@
     </scenes>
     <resources>
         <image name="UnChecked-Box" width="2048" height="2048"/>
-        <image name="home-outline-40" width="40" height="40"/>
-        <image name="share_button2" width="2224" height="1668"/>
+        <image name="book" catalog="system" width="64" height="50"/>
+        <image name="button_share3" width="2224" height="1668"/>
+        <image name="doc.append" catalog="system" width="56" height="64"/>
+        <image name="doc.text" catalog="system" width="56" height="64"/>
+        <image name="home-outline-29" width="29" height="29"/>
     </resources>
 </document>

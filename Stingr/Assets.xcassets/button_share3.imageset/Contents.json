@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "button_share3.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "home-outline-83.5@2x.png",
       "scale" : "2x"
     },
     {
