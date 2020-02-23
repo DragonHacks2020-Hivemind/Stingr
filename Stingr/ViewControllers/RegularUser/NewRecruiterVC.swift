@@ -22,7 +22,7 @@ class NewRecruiterVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-
+        finishRegistration()
     }
     
     func finishRegistration() {
