@@ -173,7 +173,10 @@
                                     <constraint firstAttribute="width" constant="30" id="4AJ-1a-0H9"/>
                                     <constraint firstAttribute="height" constant="30" id="Q0d-uc-khq"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="Untitled_Artwork"/>
+                                <state key="normal" title="Button" image="UnChecked-Box"/>
+                                <connections>
+                                    <action selector="setResumeCheckBox:" destination="umx-yB-q2a" eventType="touchUpInside" id="8IW-BH-LrT"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xFt-Xs-nFZ">
                                 <rect key="frame" x="20" y="308" width="30" height="30"/>
@@ -181,7 +184,10 @@
                                     <constraint firstAttribute="height" constant="30" id="YBy-na-z0A"/>
                                     <constraint firstAttribute="width" constant="30" id="gxQ-KF-ltL"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="Untitled_Artwork"/>
+                                <state key="normal" title="Button" image="UnChecked-Box"/>
+                                <connections>
+                                    <action selector="setCoverLetterBox:" destination="umx-yB-q2a" eventType="touchUpInside" id="mdt-px-SyY"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hN1-L3-f8b">
                                 <rect key="frame" x="20" y="378" width="30" height="30"/>
@@ -189,7 +195,10 @@
                                     <constraint firstAttribute="width" constant="30" id="Bjm-Jn-qqe"/>
                                     <constraint firstAttribute="height" constant="30" id="yuG-qS-TFT"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="Untitled_Artwork"/>
+                                <state key="normal" title="Button" image="UnChecked-Box"/>
+                                <connections>
+                                    <action selector="setTranscriptBox:" destination="umx-yB-q2a" eventType="touchUpInside" id="Mhy-cc-NGg"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resume" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="50K-Pr-RaC">
                                 <rect key="frame" x="58" y="238" width="180" height="30"/>
@@ -261,9 +270,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="TQO-KI-rM9"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" id="KXN-di-QXP"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="home-outline-40" id="KXN-di-QXP"/>
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="CoverLetterButton" destination="xFt-Xs-nFZ" id="bcM-be-LPL"/>
+                        <outlet property="ResumeButton" destination="z2h-LB-Hd5" id="s5I-p5-vTu"/>
+                        <outlet property="TranscriptButton" destination="hN1-L3-f8b" id="guh-Cp-Ryc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VlF-G1-Qz7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -300,7 +314,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Untitled_Artwork" width="2048" height="2048"/>
+        <image name="UnChecked-Box" width="2048" height="2048"/>
+        <image name="home-outline-40" width="40" height="40"/>
         <image name="share_button2" width="2224" height="1668"/>
     </resources>
 </document>
