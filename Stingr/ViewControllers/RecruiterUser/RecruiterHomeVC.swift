@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Parse
 
 class RecruiterHomeVC: UIViewController {
 
@@ -14,6 +15,16 @@ class RecruiterHomeVC: UIViewController {
         super.viewDidLoad()
 
        
+    }
+    
+    @IBAction func logout(_ sender: Any) {
+        PFUser.logOutInBackground { (error) in
+            if let error = error {
+                print("Error: \(error.localizedDescription)")
+            } else {
+                self.performSegue(withIdentifier: "logout2", sender: nil)
+            }
+        }
     }
     
     @IBAction func newEvent(_ sender: Any) {

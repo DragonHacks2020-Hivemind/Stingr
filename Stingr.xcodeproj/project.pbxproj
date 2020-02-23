@@ -11,6 +11,8 @@
 		90FDE2D62401FB7A00F03B45 /* ResumeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FDE2D52401FB7A00F03B45 /* ResumeVC.swift */; };
 		90FDE2D82401FB8D00F03B45 /* CoverLetterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FDE2D72401FB8D00F03B45 /* CoverLetterVC.swift */; };
 		90FDE2DA2401FBA300F03B45 /* TranscriptVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FDE2D92401FBA300F03B45 /* TranscriptVC.swift */; };
+		90FDE2DC2402F6BE00F03B45 /* NewRecruiterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FDE2DB2402F6BE00F03B45 /* NewRecruiterVC.swift */; };
+		90FDE2DE2402F6D600F03B45 /* NewRegularVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FDE2DD2402F6D600F03B45 /* NewRegularVC.swift */; };
 		C80D911B2401F15200188CD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80D911A2401F15200188CD9 /* AppDelegate.swift */; };
 		C80D911D2401F15200188CD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80D911C2401F15200188CD9 /* SceneDelegate.swift */; };
 		C80D91222401F15200188CD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C80D91202401F15200188CD9 /* Main.storyboard */; };
@@ -54,6 +56,8 @@
 		90FDE2D52401FB7A00F03B45 /* ResumeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeVC.swift; sourceTree = "<group>"; };
 		90FDE2D72401FB8D00F03B45 /* CoverLetterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverLetterVC.swift; sourceTree = "<group>"; };
 		90FDE2D92401FBA300F03B45 /* TranscriptVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptVC.swift; sourceTree = "<group>"; };
+		90FDE2DB2402F6BE00F03B45 /* NewRecruiterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRecruiterVC.swift; sourceTree = "<group>"; };
+		90FDE2DD2402F6D600F03B45 /* NewRegularVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRegularVC.swift; sourceTree = "<group>"; };
 		A00B5B658378849105B607CE /* Pods-Stingr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stingr.release.xcconfig"; path = "Target Support Files/Pods-Stingr/Pods-Stingr.release.xcconfig"; sourceTree = "<group>"; };
 		C2FF086A7C0109F2E2C530A6 /* Pods_StingrTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StingrTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C80D91172401F15200188CD9 /* Stingr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stingr.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -203,6 +207,7 @@
 				90FDE2D52401FB7A00F03B45 /* ResumeVC.swift */,
 				90FDE2D72401FB8D00F03B45 /* CoverLetterVC.swift */,
 				90FDE2D92401FBA300F03B45 /* TranscriptVC.swift */,
+				90FDE2DD2402F6D600F03B45 /* NewRegularVC.swift */,
 			);
 			path = RegularUser;
 			sourceTree = "<group>";
@@ -215,6 +220,7 @@
 				C84397E22402BC4A0032A334 /* AllEventsVC.swift */,
 				C84397E42402BC7B0032A334 /* ExportVC.swift */,
 				C84397E82402CBF00032A334 /* EventCell.swift */,
+				90FDE2DB2402F6BE00F03B45 /* NewRecruiterVC.swift */,
 			);
 			path = RecruiterUser;
 			sourceTree = "<group>";
@@ -462,11 +468,13 @@
 				C80D914E2401F70600188CD9 /* RecruiterHomeVC.swift in Sources */,
 				C80D914C2401F62300188CD9 /* LoginVC.swift in Sources */,
 				C84397E52402BC7B0032A334 /* ExportVC.swift in Sources */,
+				90FDE2DE2402F6D600F03B45 /* NewRegularVC.swift in Sources */,
 				C80D91502401F71700188CD9 /* RegularHomeVC.swift in Sources */,
 				90FDE2D62401FB7A00F03B45 /* ResumeVC.swift in Sources */,
 				C84397E92402CBF00032A334 /* EventCell.swift in Sources */,
 				C84397E32402BC4A0032A334 /* AllEventsVC.swift in Sources */,
 				C84397E12402BC330032A334 /* NewEventVC.swift in Sources */,
+				90FDE2DC2402F6BE00F03B45 /* NewRecruiterVC.swift in Sources */,
 				90FDE2DA2401FBA300F03B45 /* TranscriptVC.swift in Sources */,
 				90FDE2D82401FB8D00F03B45 /* CoverLetterVC.swift in Sources */,
 				C80D911D2401F15200188CD9 /* SceneDelegate.swift in Sources */,

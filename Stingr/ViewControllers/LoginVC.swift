@@ -63,9 +63,9 @@ class LoginVC: UIViewController {
             } else {
                 print("User Registered successfully")
                 if self.accountToggle.isOn {
-                    self.performSegue(withIdentifier: "recruiter", sender: nil)
+                    self.performSegue(withIdentifier: "RecruiterSignUp", sender: nil)
                 } else {
-                    self.performSegue(withIdentifier: "regular", sender: nil)
+                    self.performSegue(withIdentifier: "RegularSignUp", sender: nil)
                 }
             }
         }
