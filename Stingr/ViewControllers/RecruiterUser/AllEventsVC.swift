@@ -46,6 +46,13 @@ class AllEventsVC: UIViewController, UITableViewDelegate, UITableViewDataSource 
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "EventCell", for: indexPath) as! EventCell
         
+        cell.DateLabel.text = events[indexPath.row]!["date"] as? String
+        
+        cell.LocationLabel.text = events[indexPath.row]!["location"] as? String
+        
+        cell.TitleLabel.text = events[indexPath.row]!["title"] as? String
+        
+        cell.TypeLabel.text = events[indexPath.row]!["type"] as? String
         //BRANDON - Complete the EventCell
         
         return cell
