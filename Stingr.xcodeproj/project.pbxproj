@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1226E291B460315E6E04C57D /* Pods_Stingr_StingrUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 881FD6C9420EE0766F1A397D /* Pods_Stingr_StingrUITests.framework */; };
+		90FDE2D62401FB7A00F03B45 /* ResumeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FDE2D52401FB7A00F03B45 /* ResumeVC.swift */; };
+		90FDE2D82401FB8D00F03B45 /* CoverLetterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FDE2D72401FB8D00F03B45 /* CoverLetterVC.swift */; };
+		90FDE2DA2401FBA300F03B45 /* TranscriptVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FDE2D92401FBA300F03B45 /* TranscriptVC.swift */; };
 		C80D911B2401F15200188CD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80D911A2401F15200188CD9 /* AppDelegate.swift */; };
 		C80D911D2401F15200188CD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80D911C2401F15200188CD9 /* SceneDelegate.swift */; };
 		C80D911F2401F15200188CD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80D911E2401F15200188CD9 /* ViewController.swift */; };
@@ -45,6 +48,9 @@
 		49C66F602EA0C3F54CA3FF3B /* Pods-StingrTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StingrTests.release.xcconfig"; path = "Target Support Files/Pods-StingrTests/Pods-StingrTests.release.xcconfig"; sourceTree = "<group>"; };
 		6634D3523141E6D88D71C8AF /* Pods-Stingr-StingrUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stingr-StingrUITests.release.xcconfig"; path = "Target Support Files/Pods-Stingr-StingrUITests/Pods-Stingr-StingrUITests.release.xcconfig"; sourceTree = "<group>"; };
 		881FD6C9420EE0766F1A397D /* Pods_Stingr_StingrUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stingr_StingrUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90FDE2D52401FB7A00F03B45 /* ResumeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeVC.swift; sourceTree = "<group>"; };
+		90FDE2D72401FB8D00F03B45 /* CoverLetterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverLetterVC.swift; sourceTree = "<group>"; };
+		90FDE2D92401FBA300F03B45 /* TranscriptVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptVC.swift; sourceTree = "<group>"; };
 		A00B5B658378849105B607CE /* Pods-Stingr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stingr.release.xcconfig"; path = "Target Support Files/Pods-Stingr/Pods-Stingr.release.xcconfig"; sourceTree = "<group>"; };
 		C2FF086A7C0109F2E2C530A6 /* Pods_StingrTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StingrTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C80D91172401F15200188CD9 /* Stingr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stingr.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -181,6 +187,9 @@
 				C80D914B2401F62300188CD9 /* LoginVC.swift */,
 				C80D914D2401F70600188CD9 /* RecruiterHomeVC.swift */,
 				C80D914F2401F71700188CD9 /* RegularHomeVC.swift */,
+				90FDE2D52401FB7A00F03B45 /* ResumeVC.swift */,
+				90FDE2D72401FB8D00F03B45 /* CoverLetterVC.swift */,
+				90FDE2D92401FBA300F03B45 /* TranscriptVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -429,6 +438,9 @@
 				C80D914E2401F70600188CD9 /* RecruiterHomeVC.swift in Sources */,
 				C80D914C2401F62300188CD9 /* LoginVC.swift in Sources */,
 				C80D91502401F71700188CD9 /* RegularHomeVC.swift in Sources */,
+				90FDE2D62401FB7A00F03B45 /* ResumeVC.swift in Sources */,
+				90FDE2DA2401FBA300F03B45 /* TranscriptVC.swift in Sources */,
+				90FDE2D82401FB8D00F03B45 /* CoverLetterVC.swift in Sources */,
 				C80D911D2401F15200188CD9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
