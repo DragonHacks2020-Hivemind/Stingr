@@ -25,6 +25,8 @@
 		C84397E32402BC4A0032A334 /* AllEventsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84397E22402BC4A0032A334 /* AllEventsVC.swift */; };
 		C84397E52402BC7B0032A334 /* ExportVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84397E42402BC7B0032A334 /* ExportVC.swift */; };
 		C84397E92402CBF00032A334 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84397E82402CBF00032A334 /* EventCell.swift */; };
+		C8D3C1532402E0F70055E44E /* NewUserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D3C1522402E0F70055E44E /* NewUserVC.swift */; };
+		C8D3C1552402E10B0055E44E /* NewRecruiterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D3C1542402E10B0055E44E /* NewRecruiterVC.swift */; };
 		D22016918F4AF195D44AEC52 /* Pods_StingrTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2FF086A7C0109F2E2C530A6 /* Pods_StingrTests.framework */; };
 		E4186D720595239778733906 /* Pods_Stingr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9F4ECC257DAD87291B25198 /* Pods_Stingr.framework */; };
 /* End PBXBuildFile section */
@@ -76,6 +78,8 @@
 		C84397E22402BC4A0032A334 /* AllEventsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllEventsVC.swift; sourceTree = "<group>"; };
 		C84397E42402BC7B0032A334 /* ExportVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportVC.swift; sourceTree = "<group>"; };
 		C84397E82402CBF00032A334 /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		C8D3C1522402E0F70055E44E /* NewUserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserVC.swift; sourceTree = "<group>"; };
+		C8D3C1542402E10B0055E44E /* NewRecruiterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRecruiterVC.swift; sourceTree = "<group>"; };
 		D6CB5A758572FD2A532E2093 /* Pods-StingrTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StingrTests.debug.xcconfig"; path = "Target Support Files/Pods-StingrTests/Pods-StingrTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EC5414B6FF6500470AD905CB /* Pods-Stingr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stingr.debug.xcconfig"; path = "Target Support Files/Pods-Stingr/Pods-Stingr.debug.xcconfig"; sourceTree = "<group>"; };
 		F9F4ECC257DAD87291B25198 /* Pods_Stingr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stingr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -203,6 +207,7 @@
 				90FDE2D52401FB7A00F03B45 /* ResumeVC.swift */,
 				90FDE2D72401FB8D00F03B45 /* CoverLetterVC.swift */,
 				90FDE2D92401FBA300F03B45 /* TranscriptVC.swift */,
+				C8D3C1542402E10B0055E44E /* NewRecruiterVC.swift */,
 			);
 			path = RegularUser;
 			sourceTree = "<group>";
@@ -215,6 +220,7 @@
 				C84397E22402BC4A0032A334 /* AllEventsVC.swift */,
 				C84397E42402BC7B0032A334 /* ExportVC.swift */,
 				C84397E82402CBF00032A334 /* EventCell.swift */,
+				C8D3C1522402E0F70055E44E /* NewUserVC.swift */,
 			);
 			path = RecruiterUser;
 			sourceTree = "<group>";
@@ -467,9 +473,11 @@
 				C84397E92402CBF00032A334 /* EventCell.swift in Sources */,
 				C84397E32402BC4A0032A334 /* AllEventsVC.swift in Sources */,
 				C84397E12402BC330032A334 /* NewEventVC.swift in Sources */,
+				C8D3C1532402E0F70055E44E /* NewUserVC.swift in Sources */,
 				90FDE2DA2401FBA300F03B45 /* TranscriptVC.swift in Sources */,
 				90FDE2D82401FB8D00F03B45 /* CoverLetterVC.swift in Sources */,
 				C80D911D2401F15200188CD9 /* SceneDelegate.swift in Sources */,
+				C8D3C1552402E10B0055E44E /* NewRecruiterVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
