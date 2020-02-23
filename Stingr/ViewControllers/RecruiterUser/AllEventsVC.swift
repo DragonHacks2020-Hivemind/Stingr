@@ -7,24 +7,48 @@
 //
 
 import UIKit
+import Parse
 
-class AllEventsVC: UIViewController {
-
+class AllEventsVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    
+    var events: [PFObject?] = []
+    
+    @IBOutlet weak var tableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        tableView.delegate = self
+        tableView.dataSource = self
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func fetchEvents() {
+        let query = PFQuery(className: "Message")
+        query.addAscendingOrder("createdAt")
+        query.limit = 10
+        query.includeKeys(["title","location","date","type","notes"])
+        
+        query.findObjectsInBackground { (events, error) in
+            if let events = events {
+                self.events = events
+                self.tableView.reloadData()
+            } else {
+                print("Can't load events: \(error!.localizedDescription)")
+            }
+        }
     }
-    */
-
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return events.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "EventCell", for: indexPath) as! EventCell
+        
+        //BRANDON - Complete the EventCell
+        
+        return cell
+    }
+    
 }
