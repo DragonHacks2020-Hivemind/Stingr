@@ -29,38 +29,9 @@ class CoverLetterVC: UIViewController, UIDocumentPickerDelegate {
             func documentPicker(_ controller: UIDocumentPickerViewController, didPickDocumentsAt urls: [URL]){
                 
                 
-                guard let selectedFileURL = urls.first else {
-                    return
-                }
-                
-                let dir = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
-                
-                let sand = dir.appendingPathComponent(selectedFileURL.lastPathComponent)
-                
-                //if FileManager.default.fileExists(atPath: sand.path){
-                    //print("FIle already uploaded")
-            //}
-                //else{
+                 let selectedFileURL = urls.first
                     
-                    do{
-                        try FileManager.default.copyItem(at: selectedFileURL, to: sand)
-                        CoverLetterImage.image = UIImage(contentsOfPDFURL: sand)
-                        
-                        print("Copied File")
-                        }
-                    catch{
-                        print("Error \(error)")
-                }
+                
+                CoverLetterImage.image = UIImage(contentsOfPDFURL: selectedFileURL)
     }
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

@@ -32,29 +32,10 @@ class ResumeVC: UIViewController, UIDocumentPickerDelegate {
     
     func documentPicker(_ controller: UIDocumentPickerViewController, didPickDocumentsAt urls: [URL]){
         
+        let selectedFileURL = urls.first
         
-        guard let selectedFileURL = urls.first else {
-            return
-        }
-        
-        let dir = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
-        
-        let sand = dir.appendingPathComponent(selectedFileURL.lastPathComponent)
-        
-        //if FileManager.default.fileExists(atPath: sand.path){
-            //print("FIle already uploaded")
-    //}
-        //else{
-            
-            do{
-                try FileManager.default.copyItem(at: selectedFileURL, to: sand)
-                ResumeImageVIew.image = UIImage(contentsOfPDFURL: sand)
-                
-                print("Copied File")
-                }
-            catch{
-                print("Error \(error)")
-        }
+        ResumeImageVIew.image = UIImage(contentsOfPDFURL: selectedFileURL)
+       
     }
     /*
     // MARK: - Navigation

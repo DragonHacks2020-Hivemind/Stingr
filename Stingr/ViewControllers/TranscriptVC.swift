@@ -31,29 +31,12 @@ class TranscriptVC: UIViewController, UIDocumentPickerDelegate {
             func documentPicker(_ controller: UIDocumentPickerViewController, didPickDocumentsAt urls: [URL]){
                 
                 
-                guard let selectedFileURL = urls.first else {
-                    return
-                }
+                 let selectedFileURL = urls.first
                 
-                let dir = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
                 
-                let sand = dir.appendingPathComponent(selectedFileURL.lastPathComponent)
-                
-                //if FileManager.default.fileExists(atPath: sand.path){
-                    //print("FIle already uploaded")
-            //}
-                //else{
-                    
-                    do{
-                        try FileManager.default.copyItem(at: selectedFileURL, to: sand)
-                        TranscriptImage.image = UIImage(contentsOfPDFURL: sand)
-                        
-                        print("Copied File")
-                        }
-                    catch{
-                        print("Error \(error)")
-                }
+                TranscriptImage.image = UIImage(contentsOfPDFURL: selectedFileURL)
     }
+               
     
     /*
     // MARK: - Navigation
@@ -64,5 +47,6 @@ class TranscriptVC: UIViewController, UIDocumentPickerDelegate {
         // Pass the selected object to the new view controller.
     }
     */
+
 
 }
