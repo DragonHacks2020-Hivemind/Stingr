@@ -10,6 +10,7 @@ target 'Stingr' do
     pod "Blockstack"
     pod 'PMSuperButton' 
     pod 'WeScan'
+    pod 'PDFImage'
 
   target 'StingrTests' do
     inherit! :search_paths

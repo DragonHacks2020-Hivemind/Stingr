@@ -9,6 +9,7 @@ PODS:
     - Parse/Core (= 1.17.3)
   - Parse/Core (1.17.3):
     - Bolts/Tasks (~> 1.9)
+  - PDFImage (0.2.0)
   - PMSuperButton (3.0.2)
   - PromisesObjC (1.2.8)
   - PromisesSwift (1.2.8):
@@ -19,6 +20,7 @@ PODS:
 DEPENDENCIES:
   - Blockstack
   - Parse
+  - PDFImage
   - PMSuperButton
   - WeScan
 
@@ -28,6 +30,7 @@ SPEC REPOS:
     - Bolts
     - CryptoSwift
     - Parse
+    - PDFImage
     - PMSuperButton
     - PromisesObjC
     - PromisesSwift
@@ -39,12 +42,13 @@ SPEC CHECKSUMS:
   Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
   CryptoSwift: 769f58a9e89f64e8796c2e59ce5f002dc81a2438
   Parse: c1ad2a04d2cab2b54b6fb7da05f741abf2cf57d1
+  PDFImage: b3102567c84d19758602fdf8bd768dbc53da0cce
   PMSuperButton: 72105fef415890c8792a9e5a784f75c461066f8b
   PromisesObjC: c119f3cd559f50b7ae681fa59dc1acd19173b7e6
   PromisesSwift: 37bad6f4daddb02f7c9c531efe91e8b21c13ee2f
   STRegex: dfa420d93d8c1402956233b3879ec1fc14b45fbe
   WeScan: 843bc14af0aa32147086fb24aaf6e271334b3cda
 
-PODFILE CHECKSUM: b80266ffc35780d139e79a25b59eec2cb275cd07
+PODFILE CHECKSUM: 2ec0a6531b6f853d587d5dd10fe38b6506ce63e0
 
 COCOAPODS: 1.8.4
