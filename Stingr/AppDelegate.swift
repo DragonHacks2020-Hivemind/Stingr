@@ -16,8 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         Parse.initialize(with: ParseClientConfiguration(block: { (configuration: ParseMutableClientConfiguration) in
-            configuration.applicationId = "DSU-CodePath-Parse"
-            configuration.server = "https://dsu-codepath-parse-2020.herokuapp.com/parse"
+            configuration.applicationId = "Hivemind-Stingr"
+            configuration.server = "https://dragonhacks2020-stingr.herokuapp.com/parse"
         }))
         
         return true
